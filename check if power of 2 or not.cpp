@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-   int n;
+   int n,y;
    cin>>n;
    
-   if(n&(n-1))
+   if((n&(n-1))!=0)
     {
         cout<<"its not a power of two";
     }
@@ -18,3 +18,4 @@ int main()
     
     return 0;
 }
+
