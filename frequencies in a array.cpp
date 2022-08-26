@@ -25,6 +25,8 @@ void frequencies(int *arr,int n)
         }
         
     }
+    cout<<arr[n-1]<<" ";
+    cout<<res<<endl;
    
     
     
