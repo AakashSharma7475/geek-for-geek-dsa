@@ -14,7 +14,7 @@ int firstoccur(int arr[],int n,int x)
         low=mid+1;
         else 
         {
-            if(mid==n-1||arr[mid-1]!=arr[mid])
+            if(mid==0||arr[mid-1]!=arr[mid])
             return mid;
             else
             
